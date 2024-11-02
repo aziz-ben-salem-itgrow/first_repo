@@ -1,0 +1,57 @@
+body {
+  background-color: #121212; /* Black background for a racing feel */
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('f1-bg.jpg'); /* Add an F1-themed background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.quiz-container {
+  background-color: rgba(0, 0, 0, 0.8); /* Transparent black background */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Red glow effect */
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  border: 2px solid #e10600; /* F1 Red */
+}
+
+h1 {
+  color: #e10600; /* Formula 1 Red */
+  font-family: 'Formula1-Regular', sans-serif; /* Optionally use F1 fonts */
+}
+
+.question {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  margin-left: 10px;
+}
+
+button {
+  background-color: #e10600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cc0500;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
